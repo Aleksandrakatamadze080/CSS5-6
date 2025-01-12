@@ -1,0 +1,439 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: inter;
+  }
+  
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    max-width: 1024px;
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .headerDiv {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  
+  }
+  
+  .logoDiv {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    width: 100%;
+    max-width: 141px;
+  }
+  
+  
+  .headerUl {
+    display: flex;
+    gap: 20px;
+    max-width: 470px;
+    width: 100%;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    color: #535862;
+  }
+  
+  .headerButtons {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 168px;
+  }
+  
+  .LogIn {
+    padding: 10px 14px;
+    color: #414651;
+    font-size: 14px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #d5d7da;
+    background: #fff;
+  }
+  
+  .SingUp {
+    padding: 10px 14px;
+    font-size: 14px;
+    border-radius: var(--radius-md, 8px);
+    background: #7f56d9;
+    color: #fff;
+    border: none;
+  }
+  
+  .headingSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .headingDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .bedgeGroup {
+    display: flex;
+    gap: 12px;
+    border-radius: 10px;
+    border: 1px solid #d5d7da;
+    background: #fff;
+    padding: 8px 12px 8px 8px;
+  }
+  
+  .bedge {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid #d5d7da;
+    background: #fff;
+    padding: 4px 8px;
+    color: #414651;
+    font-size: 14px;
+  }
+  
+  .bedgeContent {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #414651;
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 55px;
+  }
+  
+  .headingP {
+    color: #535862;
+    font-size: 20px;
+    max-width: 760px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .headingButtons {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .Demo {
+    display: flex;
+    gap: 8px;
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: 1px solid #d5d7da;
+    background: #fff;
+    align-items: center;
+    color: #414651;
+    font-size: 18px;
+  }
+  
+  .SingUpTwo {
+    border-radius: var(--radius-lg, 10px);
+    background: #7f56d9;
+    padding: 16px 24px;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+  }
+  
+  .featuresSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  
+  .PurpleText {
+    color: #6941c6;
+    font-size: 16px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    color: black;
+  }
+  
+  .featuresP {
+    color: #535862;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .featuresBoxes {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .featuresBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 320px;
+    width: 100%;
+    align-items: center;
+    padding: 12px 24px;
+  }
+  
+  .featuresLogos {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e9eaeb;
+    background: #fff;
+  }
+  
+  .featuresText {
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .featuresParagraph {
+    text-align: center;
+    color: #535862;
+    font-size: 14px;
+  }
+  
+  .verticalRow {
+    height: 114px;
+    width: 3px;
+    background-color: #535862;
+  }
+  
+  .priceBoxes {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .priceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    border: 1px solid #e9eaeb;
+    background: #fff;
+    max-width: 496px;
+    width: 100%;
+  }
+  
+  .planLogo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 32px 32px 0 32px;
+    width: 100%;
+  }
+  
+  .plan {
+    color: #6941c6;
+    font-size: 20px;
+  }
+  
+  .PriceBoxIcon {
+    border-radius: var(--radius-full, 9999px);
+    background: #f4ebff;
+    padding: 12px;
+  }
+  
+  .billDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .price {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+  }
+  
+  .priceBoxP {
+    color: #535862;
+    font-size: 16px;
+  }
+  
+  .checkItems {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    align-items: flex-start;
+    padding: 32px 32px 40px 32px;
+  }
+  
+  .checkText {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .priceBoxfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #e9eaeb;
+    background: #fafafa;
+    width: 100%;
+    padding: 32px;
+  }
+  
+  .getStarted {
+    border-radius: var(--radius-md, 8px);
+    background: #7f56d9;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 18px;
+    width: 100%;
+    border: none;
+  }
+  
+  .supportSection {
+    display: flex;
+    width: 100%;
+    border-radius: 24px;
+    background: #53389e;
+    background-image: url(/images/Image\ \(21\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    flex-wrap: wrap;
+  }
+  
+  .supportContent {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 544px;
+    width: 100%;
+    padding: 64px;
+  }
+  
+  .starsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 36px;
+    color: #fff;
+    align-items: flex-start;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+  }
+  
+  .walls {
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .productP {
+    color: #e9d7fe;
+    font-size: 16px;
+  }
+  
+  .cyrcles {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .whitecyrcle {
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    background: #fff;
+  }
+  
+  .purplecyrcle {
+    width: 10px;
+    height: 10px;
+    border-radius: 9999px;
+    background: #9e77ed;
+  }
+  
+  
+  footer {
+      display: flex;
+      max-width: 1024px;
+      width: 100%;
+      justify-content: space-between;
+      margin-top: 72px;
+      padding: 24px 0;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  
+  .footerNav {
+      max-width: 506px;
+      width: 100%;
+  }
+  
+  .footerUl {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style-type: none;
+  }
+  
+  .footerP {
+      color: #717680;
+      font-size: 16px;
+  }
+  .imgs{
+    display: flex;
+    gap: 10px;
+    align-items: right;
+  }
